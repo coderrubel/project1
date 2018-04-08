@@ -1,0 +1,173 @@
+body,h1, h2, h3, h4, h5{
+    margin: 0;
+    padding: 0;
+}
+.carousel-caption h2{
+    padding-bottom: calc(17% - 11px);
+    font-family: 'Roboto Regular', sans-serif; 
+}
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-nav{
+    margin-top: 26px;
+    margin-bottom: 60px;
+}
+.navbar-nav ul{
+    padding: 0;
+}
+.navbar-nav li a{  
+    padding-bottom:5px;
+    line-height: 15px;
+}
+.navbar-toggle {
+    position: relative;
+    padding: 9px 10px;
+    margin-top: 22px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+.clearfix{
+    clear: both;
+}
+/* ===     article 1   ==== */
+.article1{
+    margin-top: 90px;
+    margin-bottom: 160px;
+    font-family: roboto_regular;
+}
+.article1 h2{
+    font-family: 'Roboto Black', sans-serif;
+    color: #2d3e83;
+    padding-bottom: 25px;
+}
+.article1 p{
+    font-family: 'Roboto Regular', sans-serif;
+    padding-bottom: 26px;
+    font-size: 18px;
+}
+
+
+
+/* ===     article 2   ==== */
+.article2 h1{
+    font-family: 'Roboto Black', sans-serif;
+    color: #2d3e83;
+    font-size: 33px;
+    padding-bottom: 26px;
+}
+.article2 p{
+    font-family: 'Roboto Italic', sans-serif;
+    font-size: 16px;
+    padding-bottom: 22px;
+}
+.article2 h3{
+    font-family: 'Roboto Medium Italic', sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+.article2 h4{
+    font-family: 'Roboto Bold Italic', sans-serif;
+    font-size: 24px;
+    color: #333333;
+}
+.services{
+    padding-top: 22px;
+}
+
+/* ===     article 3   ==== */
+.article3{
+    margin-top: 160px; 
+}
+.article3 h1{
+    font-family: 'Roboto Black', sans-serif;
+    color: #2d3e83;
+    font-size: 33px;
+    padding-bottom: 22px;
+}
+.article3 p{
+    font-family: 'Roboto Italic', sans-serif;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.enterprise{ 
+    margin-top: 80px;
+    margin-bottom: 190px;
+}
+.enterprise_img{
+    background-image: url("../img/enterprise.png");
+    background-size: 100% auto;
+    background-color: black;
+    height: 75px;
+
+}
+
+.profile p{
+    font-family: 'Roboto Italic', sans-serif;
+    font-size: 15px;
+    padding-bottom: 15px;
+    color: #a6a6a6;
+}
+.profile p a{
+    color: #495894;
+    font-family: 'Roboto Bold Italic', sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+}
+/*   ==== footer area   ===      */
+
+footer{
+    margin-top: 116px;
+    background: #2a2d33;
+    color: #e4ecf1;
+}
+.sosila_link ul{
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+.sosila_link ul li{
+    padding-right: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.sosila_link ul li a{
+    background-color: #26292f; 
+    border: 1px solid #35383e;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+}
+.sosila_link ul li a:hover{
+    background: #35383e;
+    transition: all .25s;
+}
+
+.link ul{
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+.link ul li{
+    display: block;
+    padding-bottom: 5px;
+}
+.link ul li a{
+    color: gainsboro;
+    text-decoration: none;
+    font-family: 'Roboto Italic', sans-serif;
+}
+.link1{
+    padding-top: 20px;
+}
+.footer_top{
+    padding:60px 0 50px 0;
+}
+.footer_bottom{
+    background: #25292f;
+    padding: 22px 0;
+}
+.contact h4{
+    margin-bottom: 10px;
+  
+}
