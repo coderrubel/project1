@@ -2,6 +2,9 @@ body,h1, h2, h3, h4, h5{
     margin: 0;
     padding: 0;
 }
+.carousel-caption{
+    height: border-box;
+}
 .carousel-caption h2{
     padding-bottom: calc(17% - 11px);
     font-family: 'Roboto Regular', sans-serif; 
@@ -61,18 +64,19 @@ body,h1, h2, h3, h4, h5{
     font-size: 16px;
     padding-bottom: 22px;
 }
+
 .article2 h3{
-    font-family: 'Roboto Medium Italic', sans-serif;
-    font-size: 18px;
-    color: #333333;
-}
-.article2 h4{
     font-family: 'Roboto Bold Italic', sans-serif;
     font-size: 24px;
     color: #333333;
 }
 .services{
     padding-top: 22px;
+}
+.media-body h4{
+        font-family: 'Roboto Medium Italic', sans-serif;
+    font-size: 18px;
+    color: #333333;
 }
 
 /* ===     article 3   ==== */
