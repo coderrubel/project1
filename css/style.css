@@ -2,22 +2,40 @@ body,h1, h2, h3, h4, h5{
     margin: 0;
     padding: 0;
 }
-.carousel-caption{
-    height: border-box;
+.carousel-caption {
+    bottom: initial;
+    top: calc(50% - 41px);
 }
 .carousel-caption h2{
-    padding-bottom: calc(17% - 11px);
     font-family: 'Roboto Regular', sans-serif; 
+    font-weight: 400;
+    font-size: 35px;
+    color: #ffffff;
 }
 .navbar{
+    border: none;
+    background-color: #2d3e83;
+    border-radius: inherit;
+    padding-bottom: 60px;
     margin-bottom: 0;
 }
 .navbar-nav{
     margin-top: 26px;
-    margin-bottom: 60px;
+    //  margin-bottom: 60px;
+    background-color: #2d3e83;
 }
 .navbar-nav ul{
     padding: 0;
+}
+.navbar-default .navbar-nav>li>a{
+    font-family: 'Roboto Regular', sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    color: #7d8cc8;
+}
+.navbar-default .navbar-nav>li>a:active,.navbar-default .navbar-nav>li>a:hover{ 
+    color: white;
+    transition: all .25s;
 }
 .navbar-nav li a{  
     padding-bottom:5px;
@@ -26,7 +44,7 @@ body,h1, h2, h3, h4, h5{
 .navbar-toggle {
     position: relative;
     padding: 9px 10px;
-    margin-top: 22px;
+    margin-top: 40px;
     margin-right: 15px;
     margin-bottom: 50px;
 }
@@ -35,38 +53,53 @@ body,h1, h2, h3, h4, h5{
 }
 /* ===     article 1   ==== */
 .article1{
-    margin-top: 90px;
-    margin-bottom: 160px;
-    font-family: roboto_regular;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 .article1 h2{
     font-family: 'Roboto Black', sans-serif;
+    font-weight: 900;
     color: #2d3e83;
     padding-bottom: 25px;
 }
+.article1 h4{
+    font-family: 'Roboto Regular', sans-serif;
+    font-weight: 400;
+    padding-bottom: 26px;
+    font-size: 22px;
+}
 .article1 p{
     font-family: 'Roboto Regular', sans-serif;
-    padding-bottom: 26px;
+    font-weight: 400;
     font-size: 18px;
 }
 
-
-
 /* ===     article 2   ==== */
+.bg_color{
+    background-color: #ede8e8;
+}
+.article2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}/*
 .article2 h1{
     font-family: 'Roboto Black', sans-serif;
+    font-weight: 900;
     color: #2d3e83;
     font-size: 33px;
-    padding-bottom: 26px;
-}
+    padding-bottom: 22px;
+}*/
 .article2 p{
     font-family: 'Roboto Italic', sans-serif;
+    font-style: italic;
     font-size: 16px;
     padding-bottom: 22px;
 }
 
 .article2 h3{
     font-family: 'Roboto Bold Italic', sans-serif;
+    font-weight: 700;
     font-size: 24px;
     color: #333333;
 }
@@ -74,27 +107,31 @@ body,h1, h2, h3, h4, h5{
     padding-top: 22px;
 }
 .media-body h4{
-        font-family: 'Roboto Medium Italic', sans-serif;
+    font-family: 'Roboto Medium Italic', sans-serif;
+    font-weight: 500;
     font-size: 18px;
     color: #333333;
 }
 
 /* ===     article 3   ==== */
 .article3{
-    margin-top: 160px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .article3 h1{
     font-family: 'Roboto Black', sans-serif;
+    font-weight: 900;
     color: #2d3e83;
     font-size: 33px;
     padding-bottom: 22px;
 }
 .article3 p{
     font-family: 'Roboto Italic', sans-serif;
+    font-style: italic;
     font-size: 15px;
     padding-bottom: 15px;
 }
-
+/*
 .enterprise{ 
     margin-top: 80px;
     margin-bottom: 190px;
@@ -106,9 +143,22 @@ body,h1, h2, h3, h4, h5{
     height: 75px;
 
 }
+*/
 
+.profile{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.profile h2{
+    font-family: 'Roboto Black', sans-serif;
+    font-weight: 900;
+    color: #2d3e83;
+    font-size: 33px;
+    padding-bottom: 22px;
+}
 .profile p{
     font-family: 'Roboto Italic', sans-serif;
+    font-style: italic;
     font-size: 15px;
     padding-bottom: 15px;
     color: #a6a6a6;
@@ -116,18 +166,20 @@ body,h1, h2, h3, h4, h5{
 .profile p a{
     color: #495894;
     font-family: 'Roboto Bold Italic', sans-serif;
+    font-weight: 700;
+    font-style: italic;
     font-size: 18px;
     text-decoration: underline;
 }
 /*   ==== footer area   ===      */
 
 footer{
-    margin-top: 116px;
+    margin-top: 50px;
     background: #2a2d33;
     color: #e4ecf1;
 }
 .sosila_link ul{
-    margin: 10px 0 0 0;
+    margin: 0;
     padding: 0;
 }
 .sosila_link ul li{
@@ -135,13 +187,16 @@ footer{
     margin-top: 20px;
     display: inline-block;
 }
-.sosila_link ul li a{
-    background-color: #26292f; 
+.sosila_link ul li a {
+    background-color: #26292f;
     border: 1px solid #35383e;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     border-radius: 50%;
     color: white;
+    width: 40px;
+    height: 40px;
+    display: block;
 }
 .sosila_link ul li a:hover{
     background: #35383e;
@@ -160,6 +215,7 @@ footer{
     color: gainsboro;
     text-decoration: none;
     font-family: 'Roboto Italic', sans-serif;
+    font-style: italic;
 }
 .link1{
     padding-top: 20px;
@@ -173,5 +229,5 @@ footer{
 }
 .contact h4{
     margin-bottom: 10px;
-  
+
 }
