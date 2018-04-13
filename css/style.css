@@ -2,6 +2,10 @@ body,h1, h2, h3, h4, h5{
     margin: 0;
     padding: 0;
 }
+.header{
+    background-color: #2d3e83;
+    
+}
 .carousel-caption {
     bottom: initial;
     top: calc(50% - 41px);
@@ -82,14 +86,7 @@ body,h1, h2, h3, h4, h5{
     margin-top: 50px;
     margin-bottom: 50px;
 
-}/*
-.article2 h1{
-    font-family: 'Roboto Black', sans-serif;
-    font-weight: 900;
-    color: #2d3e83;
-    font-size: 33px;
-    padding-bottom: 22px;
-}*/
+}
 .article2 p{
     font-family: 'Roboto Italic', sans-serif;
     font-style: italic;
