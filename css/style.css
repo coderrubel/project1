@@ -4,7 +4,7 @@ body,h1, h2, h3, h4, h5{
 }
 .header{
     background-color: #2d3e83;
-    
+
 }
 .carousel-caption {
     bottom: initial;
@@ -16,16 +16,26 @@ body,h1, h2, h3, h4, h5{
     font-size: 35px;
     color: #ffffff;
 }
+.navbar-brand>img {
+    border-radius: 4px;
+    box-shadow: background 3px 2px;
+}
+.navbar-brand{
+    padding: 10px 15px;
+}
+.navbar-brand img{
+    height: 60px;
+    width: 220px;
+}
 .navbar{
     border: none;
     background-color: #2d3e83;
     border-radius: inherit;
-    padding-bottom: 60px;
+    padding-bottom: 25px;
     margin-bottom: 0;
 }
 .navbar-nav{
-    margin-top: 26px;
-    //  margin-bottom: 60px;
+    margin-top: 20px;
     background-color: #2d3e83;
 }
 .navbar-nav ul{
@@ -41,6 +51,9 @@ body,h1, h2, h3, h4, h5{
     color: white;
     transition: all .25s;
 }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+            background-color: #2d3e83;
+        }
 .navbar-nav li a{  
     padding-bottom:5px;
     line-height: 15px;
@@ -51,6 +64,9 @@ body,h1, h2, h3, h4, h5{
     margin-top: 40px;
     margin-right: 15px;
     margin-bottom: 50px;
+}
+#carousel-example-generic{
+    margin-top: 80px;
 }
 .clearfix{
     clear: both;
